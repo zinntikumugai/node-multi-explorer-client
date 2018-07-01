@@ -1,4 +1,5 @@
 const insight = require('./client/insight.js');
+const iquidus  =require('./client/iquidus.js');
 let func = {
     explorer: {
         insight: 1,
@@ -9,6 +10,11 @@ let func = {
             case func.explorer.insight:
                 return new insight(url);
                 break;
+            case func.explorer.iquidus:
+                return new iquidus(url);
+                break;
+            default:
+                throw new Error("Not Support Service");
         }
     }
 }
