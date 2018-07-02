@@ -1,7 +1,7 @@
 # Node Multi Expoloer Client
 
 **コレ１つでいいです**  
-**One is over**  
+**It is not necessary other than this**  
 _(これ以上ライブラリを増やしたくない)_  
 _(I do not want to increase the number of libraries any more)_
 
