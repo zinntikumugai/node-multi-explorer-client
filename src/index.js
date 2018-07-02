@@ -13,16 +13,16 @@ let func = {
         switch (id) {
             case func.explorer.insight:
                 return new insight(url);
-                break;
+
             case func.explorer.iquidus:
                 return new iquidus(url);
-                break;
+
             case func.explorer.cryptobe:
                 return new cryptobe();
-                break;
+
             case func.explorer.cryptoid:
                 return new cryptoid(url);
-                break;
+                
             default:
                 throw new Error("Not Support Service");
         }
