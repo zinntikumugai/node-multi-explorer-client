@@ -40,7 +40,7 @@ module.exports = class {
             case "getblockhash":    //height
             case "getblockheight":  //hash
             case "txbymessage": //m,before
-                if(typeof data == "object")
+                if (typeof data == "object")
                     throw new Error("Missing Data(plz Object)");
                 let query = "";
                 Object.keys(data).forEach(key => {

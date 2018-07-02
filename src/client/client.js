@@ -8,7 +8,7 @@ module.exports = {
         }, callback);
     },
 
-    post: (url ,qs, callback) => {
+    post: (url, qs, callback) => {
         request.post({
             url: url,
             headers: {

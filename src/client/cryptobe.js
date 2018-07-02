@@ -22,8 +22,8 @@ module.exports = class {
             case "decode_address":
             case "hashpubkey":
             case "hashtoaddress":
-            url +=`q/${action}/${data}`;
-            break;
+                url += `q/${action}/${data}`;
+                break;
 
             case "getblockcount":
             case "getdifficulty":
