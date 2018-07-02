@@ -1,0 +1,32 @@
+{
+  "name": "multi-expoloer-client",
+  "version": "1.0.0",
+  "description": "multi expoloer client",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinntikumugai/node-multi-expoloer-client.git"
+  },
+  "keywords": [
+    "explorer"
+  ],
+  "author": "zinntikumugai <uesitananame55@gmail.com> (http://zinntikumugai.com)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/zinntikumugai/node-multi-expoloer-client/issues"
+  },
+  "homepage": "https://github.com/zinntikumugai/node-multi-expoloer-client#readme"
+}
