@@ -1,4 +1,4 @@
-# Node Multi Expoloer Client
+# Node Multi Explorer Client
 
 **コレ１つでいいです**  
 **It is not necessary other than this**  
@@ -22,7 +22,7 @@ npm i multi-expoloer-client
 # Use
 
 ```javascript
-const client = require('multi-expoloer-client');
+const client = require('multi-explorer-client');
 
 //insight,iqudus
 let zny = client.selecter(
